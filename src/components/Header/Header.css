@@ -1,0 +1,4 @@
+.head {
+  @apply text-white text-5xl font-medium;
+  margin: 1px;
+}

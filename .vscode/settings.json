@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/package-lock.json": true,
+    "**/tailwind.css": true,
+    "**/react-app-env.d.ts": true,
+    "**/.eslintcache": true,
+  },
+  "css.customData": [
+    ".vscode/tailwindcss.json"
+  ],
+  "css.validate": false
+}
