@@ -4,10 +4,11 @@
 This template is bootstraped with **create-react-app (typescript)**
 and override some config with **craco**
 
-### `PostCSS used`
-This template use only one plugin **autoprefixer**
+### `CSS style`
+This template create style with **react-scoped-css**. File name end with **.scoped.css**
+and this template use **postcss** with plugins **autoprefixer** and **purgecss**
 
-### `Code style formatter`
+### `Code formatter`
 All **.{ts,tsx}** files will be formatted with **prettier**
 and all **.css** files will be formatted with **stylelint**
 
