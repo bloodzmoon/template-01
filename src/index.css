@@ -1,3 +1,5 @@
+/*! purgecss start ignore */
+
 body {
   margin: 0;
   font-family:
@@ -48,3 +50,5 @@ a:active {
 :root {
   --black: #21252b;
 }
+
+/*! purgecss end ignore */
