@@ -1,0 +1,31 @@
+.full-page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--black);
+  color: white;
+}
+
+.head {
+  font-size: 52px;
+  letter-spacing: 3px;
+}
+
+.blue {
+  color: deepskyblue;
+}
+
+.description {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.link {
+  color: deepskyblue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,11 +1,7 @@
-import HomePage from 'pages/HomePage'
+import HelloWorld from 'components/HelloWorld'
 
 function App() {
-  return (
-    <div>
-      <HomePage />
-    </div>
-  )
+  return <HelloWorld />
 }
 
 export default App
