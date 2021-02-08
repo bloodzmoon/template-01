@@ -1,6 +1,6 @@
 import './HelloWorld.scoped.css'
 
-function HelloWorld() {
+export function HelloWorld() {
   return (
     <div className="full-page">
       <header className="head">
@@ -20,5 +20,3 @@ function HelloWorld() {
     </div>
   )
 }
-
-export default HelloWorld
