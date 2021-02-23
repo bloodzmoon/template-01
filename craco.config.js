@@ -6,10 +6,7 @@ module.exports = {
       plugins: [
         require('autoprefixer'),
         purgecss({
-          content: ['./src/**/*.html', './src/**/*.tsx', './src/**/*.ts'],
-          fontFace: true,
-          keyframes: true,
-          variables: true,
+          content: ['./src/**/*.html', './src/**/*.{ts,tsx}'],
         }),
       ],
     },
